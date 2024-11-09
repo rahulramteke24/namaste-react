@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+}
+
+.nav-items > ul {
+  padding: 0 60px;
+  font-size: 24px;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.restaurant-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.restaurant-card {
+  margin: 8px;
+  padding: 5px;
+  width: 200px;
+  height: 420px;
+}
+
+.restaurant-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.search {
+  padding: 10px;
+}
+
+.restaurant-logo {
+  width: 190px;
+  height: 150px;
+}
+
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  margin: 8px;
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0;
+}
+
+.login {
+  padding: 0 20px;
+  height: 40px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.filter {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: 0px;
+  cursor: pointer;
+}
+
+.user-card {
+  padding: 10px;
+  border: 1px solid violet;
+}
